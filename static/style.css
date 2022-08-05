@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color1 {
+  background-color: dodgerblue;
+}
+
+.color2 {
+  background-color: rgb(255, 68, 68);
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+}
+
+.container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}

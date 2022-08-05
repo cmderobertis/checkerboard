@@ -1,0 +1,12 @@
+{% extends 'index.html' %} {% block content %}
+
+<table>
+  {% for i in range(rows) %}
+  <tr>
+    {% for j in range(cols) %}
+    <td class="color{{(i+j)%2+1}}"></td>
+    {% endfor %} {% endfor %}
+  </tr>
+</table>
+
+{% endblock content %}
